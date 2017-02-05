@@ -1,0 +1,53 @@
+.panel1{
+	height: 92.5px;
+	border: 1px solid black;
+	background:#f8f8f8;
+	animation:myFirst 10s;
+	-moz-animation:myfirst 10s infinite; /* Firefox */
+	-webkit-animation:myfirst 10s infinite; /* Safari and Chrome */
+	transition: 1s;
+	transition-timing-function: ease-out;
+	}
+
+
+	  @-moz-keyframes myfirst /* Firefox */
+	{
+	0%   {background:#b0b0b0;}
+	50%  {background:#f8f8f8;}
+	100%   {background:#b0b0b0;}
+	}
+
+	    @-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+	0%   {background:#b0b0b0;}
+	50%  {background:#f8f8f8;}
+	100%   {background:#b0b0b0;}
+	}
+
+
+.panel1:hover{
+	color: red;
+	
+	transform: scaleX(2);
+
+}
+body{
+	background:#f8f8f8;
+	animation:mySecond 15s;
+	-moz-animation:mySecond 15s infinite; /* Firefox */
+	-webkit-animation:mySecond 15s infinite;
+}
+		  @-moz-keyframes mySecond /* Firefox */
+	{
+	0%   {background:#b0b0b0;}
+	50%  {background:#f8f8f8;}
+	100%   {background:#b0b0b0;}
+	}
+
+	    @-webkit-keyframes mySecond /* Safari and Chrome */
+	{
+	0%   {background:#b0b0b0;}
+	50%  {background:#f8f8f8;}
+	100%   {background:#b0b0b0;}
+	}
+
